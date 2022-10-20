@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+}
+
+header, footer {
+    background-color: grey;
+}
+
+body {
+    background-image: url(fondo.jpeg);
+    background-size: 50px;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 200px;
+    margin-top: 20px;
+}
+
+.tituloprinc {
+    color: paleturquoise;
+    margin-top: 20px;
+}
+
+.buscar {
+    margin-top: 20px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-around;
+    margin: 26px 0px 12px 0px;
+}
+
+.contenido {
+    margin: 12px 12px 12px 12px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-direction: row; 
+    align-content: space-around;
+}
+
+#portada {
+    max-height: 200px;
+    max-width: 200px;
+    margin: 8px;
+}
+
+.titulo {
+    font-size: 14px; 
+    font-family: "Times New Roman"; 
+    text-align: center;
+}
+
+#artista {
+    font-size: 14px; 
+    font-family: "Times New Roman"; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+#precio {
+    font-size: 16px;
+    font-family: "Times New Roman"; 
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#totalcanciones {
+    font-size: 16px; 
+    font-family: "Times New Roman"; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+#año {
+    font-size: 16px; 
+    font-family: "Times New Roman"; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+#spotify {
+    font-size: 16px; 
+    font-family: "Times New Roman"; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.disco {
+    margin: 12px 0px 24px 4px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+#comprar {
+      margin: 12px 0px 10px 74px;
+      border-radius: 6px;
+      border-width: 1px;
+      background-color: transparent;
+}
+
+.pie {
+    display: block;
+    margin: 24px 0px 0px 0px;
+    text-align: center;
+}

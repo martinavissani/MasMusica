@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="inicio.css">
+        <script type="text/javascript" src="inicio.js"> </script>
+    </head>
 <body>
 
 <header>
-<img alt="+ musica logo" style="height: 200px">
-<h1> <strong> ¡Bienvenido a +Música! </strong> </h1>
-<h2> <ins> Buscador </ins> </h2>
-<span style="display: list-item">
+<div class="encabezado">
+    <img class="logo" src="masmusica.gif" alt="+ musica logo">
+    <h1 class="tituloprinc"> <strong> ¡Bienvenido a +Música! </strong> </h1> </p>
+    <h2 class="buscar"> <ins> Buscador </ins> </h2> 
+</div>
+<span class="opciones">
 <h4> Inicio </h4>
 <h4> Productos </h4>
 <h4> Ofertas </h4>
@@ -14,70 +20,296 @@
 <h4> Populares </h4>
 <h4> Mi Cuenta </h4>
 </span>
+<br>
 </header>
 
-<hr>
 <main>
-<section style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; flex-direction: row; align-content: space-around">
-    <div>
-        <img src="TFJ-MATD.jpeg" title="CD MATD TFJ" style="height: 200px">
-        <p style="color: green; font-size: 14px; font-family: Times New Roman; text-align: center"> THE FAMILY JEWELS </p> 
+<section class="contenido">
+    <div class="disco" id="tfj">
+        <img id="portada" src="TFJ-MATD.jpeg">
+        <p class="titulo" id="linktfj" style="color: green" title="Escuchar en Spotify"> THE FAMILY JEWELS </p> 
+        <p id="artista"> <strong> MARINA AND THE DIAMONDS </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 13 </p>
+        <p id="año"> Año: 2010 </p>
+        <input id="comprar" type ="button" value="Comprar">
     </div>
-    <div>
-        <img src="EH-MATD.jpeg" title="CD MATD EH" style="height: 200px">
-        <p style="color: pink; font-size: 14px; font-family: Times New Roman; text-align: center"> ELECTRA HEART </p>
+    <div class="disco" id="eh">
+        <img id="portada" src="EH-MATD.jpeg">
+        <p class="titulo" id="linkeh" style="color: pink" title="Escuchar en Spotify"> ELECTRA HEART </p>
+        <p id="artista"> <strong> MARINA AND THE DIAMONDS </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 13 </p>
+        <p id="año"> Año: 2012 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
     </div>
-    <div>
-        <img src="FROOT-MATD.jpeg" title="CD MATD FROOT" style="height: 200px">
-        <p title="CD MATD FROOT" style="color: purple; font-size: 14px; font-family: Times New Roman; text-align: center"> FROOT </p>
+    <div class="disco">
+        <img id="portada" src="FROOT-MATD.jpeg">
+        <p class="titulo" id="linkfroot" style="color: purple" title="Escuchar en Spotify"> FROOT </p>
+        <p id="artista"> <strong> MARINA AND THE DIAMONDS </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12 </p>
+        <p id="año"> Año: 2015 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
     </div>
-    <div>
-        <img src="L+F-M.jpeg" title="CD MARINA L+F" style="height: 200px">
-        <p title="CD MARINA L+F" style="color: grey; font-size: 14px; font-family: Times New Roman; text-align: center"> LOVE + FEAR </p>
+    <div class="disco">
+        <img id="portada" src="L+F-M.jpeg">
+        <p class="titulo" id="linklf" style="color: grey" title="Escuchar en Spotify"> LOVE + FEAR </p>
+        <p id="artista"> <strong> MARINA AND THE DIAMONDS </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 16 </p>
+        <p id="año"> Año: 2019 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
     </div>
-    <div>
-        <img src="ADIAML-M.jpeg" title="CD MARINA ADIAML" style="height: 200px">
-        <p title="CD MARINA ADIAML" style="color: lightblue; font-size: 14px; font-family: Times New Roman; text-align: center"> ANCIENT DREAMS </p>
+    <div class="disco">
+        <img id="portada" src="ADIAML-M.jpeg">
+        <p class="titulo" id="linkad" style="color: lightblue" title="Escuchar en Spotify"> ANCIENT DREAMS </p>
+        <p id="artista"> <strong> MARINA AND THE DIAMONDS </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 10 </p>
+        <p id="año"> Año: 2021 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
     </div>
-    <div>
-        <img src="DNA-LM.jpeg" title="CD LITTLEMIX DNA" style="height: 200px">
-        <p style="color: magenta; font-size: 14px; font-family: Times New Roman; text-align: center"> DNA </p>
+    <div class="disco">
+        <img id="portada" src="DNA-LM.jpeg">
+        <p class="titulo" id="linkdna" style="color: magenta" title="Escuchar en Spotify"> DNA </p>
+        <p id="artista"> <strong> LITTLE MIX </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12 </p>
+        <p id="año"> Año: 2012 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
     </div>
-    <div>
-        <img src="SALUTE-LM.jpeg" title="CD LITLLEMIX SALUTE" style="height: 200px">
-        <p style="color: lightgreen; font-size: 14px; font-family: Times New Roman; text-align: center"> SALUTE </p>
+    <div class="disco">
+        <img id="portada" src="SALUTE-LM.jpeg">
+        <p class="titulo" id="linksalute" style="color: lightgreen" title="Escuchar en Spotify"> SALUTE </p>
+        <p id="artista"> <strong> LITTLE MIX </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12 </p>
+        <p id="año"> Año: 2013 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
     </div>
-    <div>
-        <img src="GW-LM.jpeg" title="CD LITTLEMIX GW" style="height: 200px">
-        <p title="CD LM GW" style="color: yellow; font-size: 14px; font-family: Times New Roman; text-align: center"> GET WEIRD </p>
+    <div class="disco">
+        <img id="portada" src="GW-LM.jpeg">
+        <p class="titulo" id="linkgw" style="color: yellow" title="Escuchar en Spotify"> GET WEIRD </p>
+        <p id="artista"> <strong> LITTLE MIX </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12 </p>
+        <p id="año"> Año: 2015 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
     </div>
-    <div>
-        <img src="GD-LM.jpeg" title="CD LITTLEMIX GD" style="height: 200px">
-        <p title="CD LITTLEMIX GD" style="color: rgb(214, 41, 142); font-size: 14px; font-family: Times New Roman; text-align: center"> GLORY DAYS </p>
+    <div class="disco"> 
+        <img id="portada" src="GD-LM.jpeg">
+        <p class="titulo" id="linkgd" style="color: rgb(214, 41, 142)" title="Escuchar en Spotify"> GLORY DAYS </p>
+        <p id="artista"> <strong> LITTLE MIX </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12 </p>
+        <p id="año"> Año: 2016 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
     </div>
-    <div>
-        <img src="LM5-LM.jpeg" title="CD LITTLEMIX LM5" style="height: 200px">
-        <p title="CD LITTLEMIX LM5" style="color: black; font-size: 14px; font-family: Times New Roman; text-align: center"> LM5 </p>
+    <div class="disco">
+        <img id="portada" src="LM5-LM.jpeg">
+        <p class="titulo" id="linklm5" style="color: black" title="Escuchar en Spotify"> LM5 </p>
+        <p id="artista"> <strong> LITTLE MIX </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 14 </p>
+        <p id="año"> Año: 2018 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
     </div>
-    <div>
-        <img src="CONFETTI-LM.jpeg" title="CD LITTLEMIX CONFETTI" style="height: 200px">
-        <p title="CD LITTLEMIX CONFETTI" style="color: grey; font-size: 14px; font-family: Times New Roman; text-align: center"> CONFETTI </p>
+    <div class="disco">
+        <img id="portada" src="CONFETTI-LM.jpeg">
+        <p class="titulo" id="linkconfetti" style="color: grey" title="Escuchar en Spotify"> CONFETTI </p>
+        <p id="artista"> <strong> LITTLE MIX </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 13 </p>
+        <p id="año"> Año: 2020 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
     </div>
-    <div>
-    <div>
-        <img src="BU-LM.jpeg" title="CD LITTLEMIX BU" style="height: 200px">
-        <p title="CD LITTLEMIX BU" style="color: brown; font-size: 14px; font-family: Times New Roman; text-align: center"> BETWEEN US </p>
+    <div class="disco">
+        <img id="portada" src="BU-LM.jpeg">
+        <p class="titulo" id="linkbu" style="color: brown" title="Escuchar en Spotify"> BETWEEN US </p>
+        <p id="artista"> <strong> LITTLE MIX </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 22 </p>
+        <p id="año"> Año: 2021 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="DL-DL.jpeg">
+        <p class="titulo" id="linkdl" style="color: rgb(217, 70, 247)" title="Escuchar en Spotify"> DUA LIPA </p>
+        <p id="artista"> <strong> DUA LIPA </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 17 </p>
+        <p id="año"> Año: 2017 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="FN-DL.jpeg">
+        <p class="titulo" id="linkfn" style="color: rgb(253, 32, 180)" title="Escuchar en Spotify"> FUTURE NOSTALGIA </p>
+        <p id="artista"> <strong> DUA LIPA </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 11 </p>
+        <p id="año"> Año: 2020 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="YT-AG.jpeg">
+        <p class="titulo" id="linkyt" style="color: rgb(247, 167, 216)" title="Escuchar en Spotify"> YOURS TRULY </p>
+        <p id="artista"> <strong> ARIANA GRANDE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12 </p>
+        <p id="año"> Año: 2013 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="ME-AG.jpeg">
+        <p class="titulo" id="linkme" style="color: rgb(206, 111, 170)" title="Escuchar en Spotify"> MY EVERYTHING </p>
+        <p id="artista"> <strong> ARIANA GRANDE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12 </p>
+        <p id="año"> Año: 2014 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="DW-AG.jpeg">
+        <p class="titulo" id="linkdw" style="color: rgb(41, 41, 41)" title="Escuchar en Spotify"> DANGEROUS WOMAN </p>
+        <p id="artista"> <strong> ARIANA GRANDE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 11 </p>
+        <p id="año"> Año: 2016 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="SWEETENER-AG.jpeg">
+        <p class="titulo" id="linksweetener" style="color: rgb(184, 161, 58)" title="Escuchar en Spotify"> SWEETENER </p>
+        <p id="artista"> <strong> ARIANA GRANDE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 15 </p>
+        <p id="año"> Año: 2018 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="TUN-AG.jpeg">
+        <p class="titulo" id="linktun" style="color: rgb(243, 102, 243)" title="Escuchar en Spotify"> THANK U, NEXT </p>
+        <p id="artista"> <strong> ARIANA GRANDE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12 </p>
+        <p id="año"> Año: 2019 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="POSITIONS-AG.jpeg">
+        <p class="titulo" id="linkpositions" style="color: rgb(109, 67, 91)" title="Escuchar en Spotify"> POSITIONS </p>
+        <p id="artista"> <strong> ARIANA GRANDE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 14 </p>
+        <p id="año"> Año: 2020 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="LUNGS-F+TM.jpeg">
+        <p class="titulo" id="linklungs" style="color: rgb(61, 60, 61)" title="Escuchar en Spotify"> LUNGS </p>
+        <p id="artista"> <strong> FLORENCE + THE MACHINE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 13 </p>
+        <p id="año"> Año: 2009 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="CEREMONIALS-F+TM.jpeg">
+        <p class="titulo" id="linkceremonials" style="color: rgb(122, 105, 37)" title="Escuchar en Spotify"> CEREMONIALS </p>
+        <p id="artista"> <strong> FLORENCE + THE MACHINE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12 </p>
+        <p id="año"> Año: 2011 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="HBHBHB-F+TM.jpeg">
+        <p class="titulo" id="linkhbhbhb" style="color: rgb(61, 61, 60)" title="Escuchar en Spotify"> HOW BIG, HOW BLUE </p>
+        <p id="artista"> <strong> FLORENCE + THE MACHINE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 11 </p>
+        <p id="año"> Año: 2015 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="HAH-F+TM.jpeg">
+        <p class="titulo" id="linkhah" style="color: rgb(122, 107, 47)" title="Escuchar en Spotify"> HIGH AS HOPE </p>
+        <p id="artista"> <strong> FLORENCE + THE MACHINE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 10 </p>
+        <p id="año"> Año: 2018 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="DF-F+TM.jpeg">
+        <p class="titulo" id="linkdf" style="color: rgb(241, 147, 218)" title="Escuchar en Spotify"> DANCE FEVER </p>
+        <p id="artista"> <strong> FLORENCE + THE MACHINE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 14 </p>
+        <p id="año"> Año: 2022 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="19-A.jpeg">
+        <p class="titulo" id="link19" style="color: rgb(177, 175, 92)" title="Escuchar en Spotify"> 19 </p>
+        <p id="artista"> <strong> ADELE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12 </p>
+        <p id="año"> Año: 2008 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="21-A.jpeg">
+        <p class="titulo" id="link21" style="color: rgb(128, 207, 74)"> 21 </p>
+        <p id="artista"> <strong> ADELE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 11 </p>
+        <p id="año"> Año: 2011 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="25-A.jpeg">
+        <p class="titulo" id="link25" style="color: rgb(100, 99, 54)" title="Escuchar en Spotify"> 25 </p>
+        <p id="artista"> <strong> ADELE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 11 </p>
+        <p id="año"> Año: 2015 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="30-A.jpeg">
+        <p class="titulo" id="link30" style="color: rgb(197, 195, 42)" title="Escuchar en Spotify"> 30 </p>
+        <p id="artista"> <strong> ADELE </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12  </p>
+        <p id="año"> Año: 2021 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
+    </div>
+    <div class="disco">
+        <img id="portada" src="BTD-LDR.jpeg">
+        <p class="titulo" id="linkbtd" style="color: rgb(80, 154, 163)" title="Escuchar en Spotify"> BORN TO DIE </p>
+        <p id="artista"> <strong> LANA DEL REY </strong> </p>
+        <p id="precio"> $4.000 </p> 
+        <p id="totalcanciones"> Cantidad de canciones: 12 </p>
+        <p id="año"> Año: 2012 </p>
+        <input id="comprar" type ="button" value="Comprar"> 
     </div>
 </section>
 </main>
-<hr>
 
 <footer>
-<p> Sobre nosotros </p>
+<div class="pie">
+<br>
 <p> ¿Necesitas ayuda? Contactate con nosotros: tienda.mas.musica@gmail.com </p>
-<a href="/"> Volver </a>
+<br>
+<p> Seguinos en Instagram y no te pierdas las novedades: tiendamasmusica </p>
+<br>
+<p> <a href="inicio.html"> Volver </a> </p>
 <br>
 <p style="font-style: italic"> Creado por Martina </p>
+<br>
+</div>
 </footer>
 
 </body>
