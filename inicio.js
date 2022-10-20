@@ -31,6 +31,65 @@ window.onload = function()
   let link30 = document.getElementById("link30")
   let linkbtd = document.getElementById("linkbtd")
 
+  let imgtfj = document.getElementById("imgtfj")
+  let detallestfj = document.getElementById("detallestfj")
+  let imgeh = document.getElementById("imgeh")
+  let detalleseh = document.getElementById("detalleseh")
+  let imgfroot = document.getElementById("imgfroot")
+  let detallesfroot = document.getElementById("detallesfroot")
+  let imglf = document.getElementById("imglf")
+  let detalleslf = document.getElementById("detalleslf")
+  let imgadiaml = document.getElementById("imgadiaml")
+  let detallesadiaml = document.getElementById("detallesadiaml")
+  let imgdna = document.getElementById("imgdna")
+  let detallesdna = document.getElementById("detallesdna")
+  let imgsalute = document.getElementById("imgsalute")
+  let detallessalute = document.getElementById("detallessalute")
+  let imggw = document.getElementById("imggw")
+  let detallesgw = document.getElementById("detallesgw")
+  let imggd = document.getElementById("imggd")
+  let detallesgd = document.getElementById("detallesgd")
+  let imglm5 = document.getElementById("imglm5")
+  let detalleslm5 = document.getElementById("detalleslm5")
+  let imgconfetti = document.getElementById("imgconfetti")
+  let detallesconfetti = document.getElementById("detallesconfetti")
+  let imgdl = document.getElementById("imgdl")
+  let detallesdl = document.getElementById("detallesdl")
+  let imgfn = document.getElementById("imgfn")
+  let detallesfn = document.getElementById("detallesfn")
+  let imgyt = document.getElementById("imgyt")
+  let detallesyt = document.getElementById("detallesyt")
+  let imgme = document.getElementById("imgme")
+  let detallesme = document.getElementById("detallesme")
+  let imgdw = document.getElementById("imgdw")
+  let detallesdw = document.getElementById("detallesdw")
+  let imgsweetener = document.getElementById("imgsweetener")
+  let detallessweetener = document.getElementById("detallessweetener")
+  let imgtun = document.getElementById("imgtun")
+  let detallestun = document.getElementById("detallestun")
+  let imgpositions = document.getElementById("imgpositions")
+  let detallespositions = document.getElementById("detallespositions")
+  let imglungs = document.getElementById("imglungs")
+  let detalleslungs = document.getElementById("detalleslungs")
+  let imgceremonials = document.getElementById("imgceremonials")
+  let detallesceremonials = document.getElementById("detallesceremonials")
+  let imghbhbhb = document.getElementById("imghbhbhb")
+  let detalleshbhbhb = document.getElementById("detalleshbhbhb")
+  let imghah = document.getElementById("imghah")
+  let detalleshah = document.getElementById("detalleshah")
+  let imgdf = document.getElementById("imgdf")
+  let detallesdf = document.getElementById("detallesdf")
+  let img19 = document.getElementById("img19")
+  let detalles19 = document.getElementById("detalles19")
+  let img21 = document.getElementById("img21")
+  let detalles21 = document.getElementById("detalles21")
+  let img25 = document.getElementById("img25")
+  let detalles25 = document.getElementById("detalles25")
+  let img30 = document.getElementById("img30")
+  let detalles30 = document.getElementById("detalles30")
+  let imgbtd = document.getElementById("imgbtd")
+  let detallesbtd = document.getElementById("detallesbtd")
+
   linktfj.addEventListener("click", function () {
     window.open("https://open.spotify.com/album/3dWObfa3vKyudzgmh53Xzg?si=KdynGznBQvORImDqJxgN7w")
   })
@@ -151,4 +210,124 @@ window.onload = function()
     window.open("https://open.spotify.com/album/4vXt6IpMcSnqonljffWlMI?si=GgyPBdx4SDS0WHY6MkjnHQ")
   })
 
+
+  imgtfj.addEventListener("click", function () {
+    detallestfj.classList.toggle("detalles")
+  })
+
+  imgeh.addEventListener("click", function () {
+    detalleseh.classList.toggle("detalles")
+  })
+
+  imgfroot.addEventListener("click", function () {
+    detallesfroot.classList.toggle("detalles")
+  })
+
+  imglf.addEventListener("click", function () {
+    detalleslf.classList.toggle("detalles")
+  })
+
+  imgadiaml.addEventListener("click", function () {
+    detallesadiaml.classList.toggle("detalles")
+  })
+
+  imgdna.addEventListener("click", function () {
+    detallesdna.classList.toggle("detalles")
+  })
+
+  imgsalute.addEventListener("click", function () {
+    detallessalute.classList.toggle("detalles")
+  })
+
+  imggw.addEventListener("click", function () {
+    detallesgw.classList.toggle("detalles")
+  })
+
+  imggd.addEventListener("click", function () {
+    detallesgd.classList.toggle("detalles")
+  })
+
+  imglm5.addEventListener("click", function () {
+    detalleslm5.classList.toggle("detalles")
+  })
+
+  imgconfetti.addEventListener("click", function () {
+    detallesconfetti.classList.toggle("detalles")
+  })
+
+  imgbu.addEventListener("click", function () {
+    detallesbu.classList.toggle("detalles")
+  })
+
+  imgdl.addEventListener("click", function () {
+    detallesdl.classList.toggle("detalles")
+  })
+
+  imgfn.addEventListener("click", function () {
+    detallesfn.classList.toggle("detalles")
+  })
+
+  imgyt.addEventListener("click", function () {
+    detallesyt.classList.toggle("detalles")
+  })
+
+  imgme.addEventListener("click", function () {
+    detallesme.classList.toggle("detalles")
+  })
+
+  imgdw.addEventListener("click", function () {
+    detallesdw.classList.toggle("detalles")
+  })
+
+  imgsweetener.addEventListener("click", function () {
+    detallessweetener.classList.toggle("detalles")
+  })
+
+  imgtun.addEventListener("click", function () {
+    detallestun.classList.toggle("detalles")
+  })
+
+  imgpositions.addEventListener("click", function () {
+    detallespositions.classList.toggle("detalles")
+  })
+
+  imglungs.addEventListener("click", function () {
+    detalleslungs.classList.toggle("detalles")
+  })
+
+  imgceremonials.addEventListener("click", function () {
+    detallesceremonials.classList.toggle("detalles")
+  })
+
+  imghbhbhb.addEventListener("click", function () {
+    detalleshbhbhb.classList.toggle("detalles")
+  })
+
+  imghah.addEventListener("click", function () {
+    detalleshah.classList.toggle("detalles")
+  })
+
+  imgdf.addEventListener("click", function () {
+    detallesdf.classList.toggle("detalles")
+  })
+
+  img19.addEventListener("click", function () {
+    detalles19.classList.toggle("detalles")
+  })
+
+  img21.addEventListener("click", function () {
+    detalles21.classList.toggle("detalles")
+  })
+
+  img25.addEventListener("click", function () {
+    detalles25.classList.toggle("detalles")
+  })
+
+  img30.addEventListener("click", function () {
+    detalles30.classList.toggle("detalles")
+  })
+
+  imgbtd.addEventListener("click", function () {
+    detallesbtd.classList.toggle("detalles")
+  })
 }

@@ -6,9 +6,13 @@ header, footer {
     background-color: grey;
 }
 
-body {
+main {
     background-image: url(fondo.jpeg);
     background-size: 50px;
+}
+
+.detalles {
+    display: none;
 }
 
 .encabezado {
@@ -38,7 +42,7 @@ body {
 }
 
 .contenido {
-    margin: 12px 12px 12px 12px;
+    margin: 0px 12px 0px 12px;
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-around; 
@@ -47,7 +51,7 @@ body {
     align-content: space-around;
 }
 
-#portada {
+.portada {
     max-height: 200px;
     max-width: 200px;
     margin: 8px;
@@ -64,6 +68,7 @@ body {
     font-family: "Times New Roman"; 
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #precio {
@@ -109,7 +114,7 @@ body {
 }
 
 .pie {
-    display: block;
-    margin: 24px 0px 0px 0px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
